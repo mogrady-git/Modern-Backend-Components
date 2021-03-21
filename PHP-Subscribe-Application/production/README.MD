@@ -1,4 +1,4 @@
-# Full Stack PHP Subscription Application - Production Edition
+# Backend PHP Subscription Application - Production Edition
 
 > Creates users Database if not exist
 

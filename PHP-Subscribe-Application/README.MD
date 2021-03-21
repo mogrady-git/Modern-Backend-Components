@@ -1,4 +1,4 @@
-# Full Stack PHP Subscription Application
+# Backend PHP Subscription Application
 
 Modern Subscription Capture Form with Auto Send Email Confirmation
 
@@ -11,9 +11,8 @@ Modern Subscription Capture Form with Auto Send Email Confirmation
 > Sends email to subscriber after successful capture
 
 > To test, download this project on localhost and follow ther instructions below.
-> //and foll turn on Xampp and run the index.php file.
 
-> The production version is located within the production folder differs in that as well as sending an email to the client, this application also creates a database and posts the subscriber email to the database.
+> The production version located within the production folder differs in that as well as sending an email to the client, this application also creates a database and posts the subscriber email to the database.
 
 ### Task List
 
@@ -22,9 +21,6 @@ Modern Subscription Capture Form with Auto Send Email Confirmation
 - [x] Creating PHP Functions (PHP)
 - [x] Create Database to Store the Email Addresses
 - [x] Create PHP function to POST the email address' to the database.
-
-<!-- <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/HTML-Responsive-Email-Templates"> -->
-<!-- <a href="https://mogrady-git.github.io/HTML-Responsive-Email-Templates/index.html"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a> -->
 
 ## Installation Instructions for Testing on Localhost with Gmail client
 
