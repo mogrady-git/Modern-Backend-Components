@@ -1,26 +1,30 @@
-# Backend PHP Subscription Application
+# Backend PHP Login & Registration Application
 
-Login/Registration with Email Verification, OTP Password Reset and Password Hashing using PHP and MySQL
+Login/Registration with Email Address Verification, Session, OTP Verification and Password Reset, including Password Hashing using PHP and MySQL
 
-<img src="img/PHP-Subscribe-App.jpg" width="auto" title="PHP Subscribe APP" />
+<!-- <img src="img/PHP-Subscribe-App.jpg" width="auto" title="PHP Subscribe APP" /> -->
 
-### Built using HTML, CSS, PHP, SQL.
+### Built with HTML, CSS, PHP, SQL.
 
-### Unique Project Points
+## Features
 
-> Sends email to subscriber after successful capture
+- [x] Logout functionality with sessions
+- [x] Password hashing
+- [x] Serverside validation for user entry errors in email and password fields
+- [x] Serverside validation check on database for existing email address in the system
+- [x] Sends email to subscriber after successful registration with OTP code to verify email address
+- [x] Serverside validation for correct OTP codes for initial registration and forgot password functionality
 
-> To test, download this project on localhost and follow ther instructions below.
+<!-- > To test this pro, download this project on localhost and follow ther instructions below. -->
 
-> The production version located within the production folder differs in that as well as sending an email to the client, this application also creates a database and posts the subscriber email to the database.
+<!-- > The production version located within the production folder differs in that as well as sending an email to the client, this application also creates a database and posts the subscriber email to the database. -->
 
 ### Task List
 
-- [x] Creating Modal Container For The PHP Form (HTML)
-- [x] Styling the Modal (CSS)
-- [x] Creating PHP Functions (PHP)
-- [x] Create Database to Store the Email Addresses
-- [x] Create PHP function to POST the email address' to the database.
+- [x] Components Design (HTML)
+- [x] Styling (CSS)
+- [x] Database and Tables Creation
+- [x] Creating PHP functions (PHP)
 
 ## Installation Instructions for Testing on Localhost with Gmail client
 
@@ -71,13 +75,13 @@ status varchar(255)
 );
 ```
 
-4. Open the index.php file. Fill in your email address and click submit. The email is now sent to your address with the following text:
-   > Subject - Thanks for Subscribing to [My Subscriber Application] - Michael O'Grady.
-   > Body - Thanks for subscribing to my channel. You'll always recieve the latest updates from us. We won't share or sell your information to anyone.
-5. A link on the index.php page will take you to the production version which in addition to the above, creates a database, table and posts the email
-   to the database. To create the database and table, refresh the page twice and observe the notifications in the top panel. Now fill in email and it will
-   be posted to the database as well as sent an confirmation email.
+4. Open the landing page: login-user.php file. Click Signup Now. Enter email address and details and click submit. The email is now sent to your address with the following text:
 
-## Production Edition
+   > Subject - Email Verification Code.
+   > Body - Your verification code is [xxxxxx].
 
-- [x] Included in production folder
+5. Code Verification:
+
+   > Enter the OTP verification code into the input box.
+
+6. User is registered and logged in.
