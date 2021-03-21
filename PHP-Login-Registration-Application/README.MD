@@ -2,7 +2,7 @@
 
 Login/Registration with Email Address Verification, Session, OTP Verification and Password Reset, including Password Hashing using PHP and MySQL
 
-<!-- <img src="img/PHP-Subscribe-App.jpg" width="auto" title="PHP Subscribe APP" /> -->
+<img src="img/Capture.PNG" width="auto" title="Backend PHP Login & Registration Application"/>
 
 ### Built with HTML, CSS, PHP, SQL.
 
@@ -14,10 +14,6 @@ Login/Registration with Email Address Verification, Session, OTP Verification an
 - [x] Serverside validation check on database for existing email address in the system
 - [x] Sends email to subscriber after successful registration with OTP code to verify email address
 - [x] Serverside validation for correct OTP codes for initial registration and forgot password functionality
-
-<!-- > To test this pro, download this project on localhost and follow ther instructions below. -->
-
-<!-- > The production version located within the production folder differs in that as well as sending an email to the client, this application also creates a database and posts the subscriber email to the database. -->
 
 ### Task List
 
