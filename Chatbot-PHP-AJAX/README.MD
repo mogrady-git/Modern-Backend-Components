@@ -1,7 +1,5 @@
 # Website Chatbot Application with PHP and AJAX
 
-Login/Registration with Email Address Verification, Session, OTP Verification and Password Reset, including Password Hashing using PHP and MySQL
-
 <img src="img/Capture.PNG" width="auto" title="Backend PHP Login & Registration Application"/>
 
 ### Built with HTML, CSS, PHP, SQL.

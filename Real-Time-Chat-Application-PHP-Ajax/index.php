@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['unique_id'])) {
+if (isset($_SESSION['unique_id'])) { // if user is logged in
     header("location: users.php");
 }
 ?>
@@ -14,6 +14,7 @@ if (isset($_SESSION['unique_id'])) {
                 <h4>Realtime Chat Application</h4>
             </header>
             <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+                <!-- enctype="multipart/form-data" is required for file attachments -->
                 <div class="error-text"></div>
                 <div class="name-details">
                     <div class="field input">
