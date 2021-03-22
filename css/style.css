@@ -54,6 +54,10 @@
     content: "\f00d";
 }
 
+#active:checked~.menu-btn i:hover {
+    color: #228c3a;
+}
+
 .menu {
     height: 100vh;
     /* background: #fff; */

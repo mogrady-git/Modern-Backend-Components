@@ -71,13 +71,15 @@ status varchar(255)
 );
 ```
 
-4. Open the landing page: login-user.php file. Click Signup Now. Enter email address and details and click submit. The email is now sent to your address with the following text:
+6. Ensure to update the $sender variable with your own email address otherwise it will not work.
+
+7. Open the landing page: login-user.php file. Click Signup Now. Enter email address and details and click submit. The email is now sent to your address with the following text:
 
    > Subject - Email Verification Code.
    > Body - Your verification code is [xxxxxx].
 
-5. Code Verification:
+8. Code Verification:
 
    > Enter the OTP verification code into the input box.
 
-6. User is registered and logged in.
+9. User is registered and logged in.
