@@ -5,7 +5,7 @@ Component built using JavaScript, jQuery, cURL and PHP for a use case based arou
 > cURL is a PHP library and a command line tool (like wget) that helps you send files and also download data over HTTP and FTP.
 > It supports proxies, you can transfer data over SSL connections, you can set cookies and even get files that are behind a login.
 
-<img src="img/capture.PNG" width="auto" title="Backend Image Downloader" />
+<img src="img/Capture.PNG" width="auto" title="Backend Image Downloader"/>
 
 ### Built using JavaScript, jQuery, cURL and PHP.
 
