@@ -1,6 +1,6 @@
 # Website Chatbot Application with PHP and AJAX
 
-<img src="img/Capture.PNG" width="auto" title="Backend PHP Login & Registration Application"/>
+<img src="img/Capture.PNG" width="auto" title="Website Chatbot Application"/>
 
 ### Built with HTML, CSS, PHP, SQL.
 
