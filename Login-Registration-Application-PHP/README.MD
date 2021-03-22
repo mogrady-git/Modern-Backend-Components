@@ -56,9 +56,9 @@ auth_password=your_password_here
 
 3. Save all files and restart Apache Server from the XAMPP Panel and you're ready to go!
 
-4. Open Xampp and phpMyAdmin and create userform table.
+4. Open Xampp and phpMyAdmin and create userform DATABASE.
 
-5. Run the following SQL script to create the required database table:
+5. Run the following SQL script to create the required database TABLE:
 
 ```
 CREATE TABLE usertable (

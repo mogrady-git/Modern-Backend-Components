@@ -1,17 +1,17 @@
 <?php
 //if download button clicked
 if (isset($_POST['downloadBtn'])) {
-    //getting the user img url from input field
-    $imgURL = $_POST['file']; //storing in variable
-    $regPattern = '/\.(jpe?g|png|gif|bmp|webp)$/i'; //pattern to validataing img extension
-    if (preg_match($regPattern, $imgURL)) { //if pattern matched to user img url
+    //get the user img url from input field
+    $imgURL = $_POST['file']; //store in variable
+    $regPattern = '/\.(jpe?g|png|gif|bmp|webp)$/i'; //pattern to validate img extension
+    if (preg_match($regPattern, $imgURL)) { //if pattern matches to user img url
         $initCURL = curl_init($imgURL); //intializing curl
         curl_setopt($initCURL, CURLOPT_RETURNTRANSFER, true);
         $downloadImgLink = curl_exec($initCURL); //executing curl
         curl_close($initCURL); //closing curl
-        // now we convert the base 64 format to jpg to download
-        header('Content-type: image/jpg'); //in which extension you want to save img
-        header('Content-Disposition: attachment;filename="image.jpg"'); //in which name you want to save img
+        //convert the base 64 format to jpg to download
+        header('Content-type: image/jpg'); //extension to save img
+        header('Content-Disposition: attachment;filename="image.jpg"'); //in which name to save img
         echo $downloadImgLink;
     }
 }
@@ -21,7 +21,7 @@ if (isset($_POST['downloadBtn'])) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Image Download in PHP | CodingNepal</title>
+    <title>Backend Download Image Application</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -60,16 +60,16 @@ if (isset($_POST['downloadBtn'])) {
                         $("#button").addClass("active");
                         $("#field").addClass("disabled");
                         $(".cancel-icon").on("click", function() {
-                            //we'll remove all new added class on cancel icon click
+                            // Remove all new added class on cancel icon click
                             $(".preview-box").removeClass("imgActive");
                             $("#button").removeClass("active");
                             $("#field").removeClass("disabled");
                             $(".img-preview img").remove();
-                            // that's all in javascript/jquery now the main part is PHP
+                            // End of JavaScript/jQuery elements
                         });
                     } else {
                         alert("Invalid img URL - " + imgURL);
-                        $("#field").val(''); //if pattern not matched we'll leave the input field blank
+                        $("#field").val(''); //if pattern does not match leave  input field blank
                     }
                 }
             });
