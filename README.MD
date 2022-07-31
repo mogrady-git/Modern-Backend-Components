@@ -1,13 +1,26 @@
-# Modern-Backend-Components
+<h1 align="center">PHP Applications</h1>
 
-This series is a collection of modern backend components i often use within in client projects.
-Explore the Projects using the Website Portal below and use back to return to the home screen.
+Small collection of projects in PHP and MySQL within this Repo.
 
-> HTML, CSS, JavaScript, PHP.
+View the `README.md` file in each directory for the projects below.
 
-### Projects requiring server side functionality are unsuitable for running on this platform for live previews.
+- [x] [Realtime Chat Application](Real-Time-Chat-Application-PHP-Ajax/README.MD)
+- [x] [Chat Application](Chatbot-PHP-AJAX/README.MD)
+- [x] [Subscribe Application](Subscribe-Application-PHP/README.MD)
+- [x] [Login Registration Application](Login-Registration-Application-PHP/README.MD)
+- [x] [Image Upload Application](Backend-Image-Downloader-PHP/README.MD)
 
 Instead, to run these you must download and run locally instead and follow project documentation.
 
+<h1 align="center">
+<img src="images/upload.png"  height="auto" width="100%"> 
+<img src="images/login-registration.png"  height="auto" width="100%">
+<img src="images/realchat.png"  height="auto" width="100%">
+<img src="images/php-subscribe-app.jpg"  height="auto" width="100%">
+<img src="images/chatbot.png"  height="auto" width="100%">
+</h1>
+
+<h1 align="center">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/Modern-Backend-Components">
 <a href="https://mogrady-professional.github.io/Modern-Backend-Components/index.html"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a>
+</h1>

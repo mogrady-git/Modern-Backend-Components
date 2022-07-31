@@ -60,7 +60,7 @@ auth_password=your_password_here
 
 5. Run the following SQL script to create the required database TABLE:
 
-```
+```sql
 CREATE TABLE usertable (
 id int(11) PRIMARY KEY AUTO_INCREMENT,
 name  varchar(255),

@@ -17,7 +17,7 @@
 
 2. Run the following SQL script to create the required database TABLE:
 
-```
+```sql
 CREATE TABLE chatbot (
 id int(11) PRIMARY KEY AUTO_INCREMENT,
 queries varchar(300),
@@ -32,7 +32,7 @@ replies varchar(300)
 
 4. Alternatively, run the following script to enter sample queries and replies
 
-```
+```sql
 INSERT INTO `chatbot` (`id`, `queries`, `replies`) VALUES (NULL, 'What color are your shoes | What color are your shoes?', 'Blue and green.'), (NULL, 'I have a problem with my order.', 'What is your account number?'), (NULL, ' I would like the late fee waived.', 'I see we received your payment on the 14th, which is four days past the due date.'), (NULL, ' I want the charges reversed or I will close my account and smear you on social media.', 'I see you’ve been a good customer for a long time. I can take care of reversing that late fee. Give me just a moment.'), (NULL, 'What’s up? | Whats up |', 'Nothing much just having a byte!'), (NULL, 'Good morning | Good morning!', 'Good morning to you too! '), (NULL, 'Good evening | Good Evening!', 'Good evening to you too!'), (NULL, 'Goodnight', 'Goodnight to you too!'), (NULL, 'I’m not feeling well |I’m sad | Im sad ', ' I’m sorry to hear that, How can I help you? '), (NULL, 'Where are you located? | Where are you from? | Where are you from', 'The sticks'), (NULL, 'Are you a real person or a chatbot? | Are you a real person | Are you a real chatbot', 'HAHAHA. I am a real person! Or, am I..?!'), (NULL, 'Who made you | Who made you?', 'Michael O\'Grady made me!'), (NULL, 'Bye | Goodbye | I have to go', 'Ok bye, hope to chat again soon!'), (NULL, 'Where are you from | Where are you from ?', 'I\'m from Ireland!'), (NULL, 'What is your name | What is your name?', 'My name is Website Chat Application!'), (NULL, 'How are you? | Hi | Hello | How are you', 'Hello there!');
 
 ```
