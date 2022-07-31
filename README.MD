@@ -19,8 +19,3 @@ Instead, to run these you must download and run locally instead and follow proje
 <img src="images/php-subscribe-app.jpg"  height="auto" width="100%">
 <img src="images/chatbot.png"  height="auto" width="100%">
 </h1>
-
-<h1 align="center">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/Modern-Backend-Components">
-<a href="https://mogrady-professional.github.io/Modern-Backend-Components/index.html"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a>
-</h1>
