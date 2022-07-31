@@ -26,4 +26,4 @@
 
 1. Create chatapp DATABASE on your server (or open Xampp and phpMyAdmin to create the database on localhost).
 
-2. Run the chatapp SQL script to create the required database TABLES:
+2. Run the `chatapp.sql` script to create the required database tables.
